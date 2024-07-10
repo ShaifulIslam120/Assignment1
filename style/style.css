@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.name-download-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.name-download-sec p{
+    font-weight: 800;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-family: "Azeret Mono", monospace;
+}
+.name-download-sec button{
+    width: 228px;
+    height: 58px;
+    margin-top: 38px;
+    margin-right: 150px;
+    border-radius: 8px;
+}
+.Download-Resume{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace;
+}
+.banner-container{
+    background-image:url("../assets/Hero-bg.png");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 157px;
+    background-repeat: no-repeat;
+   
+}
+.banner-conatnt{
+    text-align: center;
+}
+.banner-conatnt img{
+    height: 240px;
+    width: 240px;
+    margin-top: ;
+}
+.banner-conatnt h2{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Azeret Mono", monospace;
+    margin-top: 32px;
+}
+.banner-conatnt p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace;
+    margin-top: 24px;
+}
+.banner-conatnt button{
+    width: 270px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: #0D1321;
+    margin: 32px;
+}
+.Contact-with-me{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace;
+    padding: 21px 24px;
+}
+.Why-Web-Development{
+    margin: 0 auto;
+    height: 1395px;
+    width:1400px;
+    margin-top: 74px;
+    
+}
+.web-text{
+   text-align: center;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+.web-text h5{
+    font-size: 32px;
+    font-weight: 800;
+    font-family:"Azeret Mono", monospace; 
+}
+.web-text p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace;
+    margin-top: 24px;
+}
+.card-contant{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 48px;
+    padding: 48px;
+    background: rgba(13, 19, 33, 0.02)
+}
+.card-text h5{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;
+    
+}
+.card-text p{
+font-size: 16px;
+font-family: 400;
+font-family:"Azeret Mono", monospace; 
+color: #0D1321;
+margin-top: 16px;
+}
+.card-contant button{
+    width: 150px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0D1321;
+    font-size: "Azeret Mono", monospace;
+    padding: 5px 8px;
+    margin-top: 32px;
+}
+.inspiration{
+    text-align: center;
+    margin-top: 90px;
+}
+.inspiration h5{
+    font-size: 32px;
+    font-weight: 800;
+    font-family:"Azeret Mono", monospace; ;
+    color: #0D1321;
+}
+.inspiration p{
+    font-size: 16px;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.video-1{
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 15px
+    
+}
+.My-Current-Target{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 400px;
+    text-align: center;
+}
+.current-text h5{
+    font-size: 32px;
+    font-weight: 800;
+    font-family: "Azeret Mono", monospace;;
+}
+.current-text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace;
+    margin-top: 24px;
+   
+}
+.current-icons{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 48px;
+    gap: 50px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    text-align: left;
+    padding: 20px;
+   
+}
+.current-icons h5{
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Azeret Mono", monospace; 
+}
+.current-icons p{
+    font-size: 26px;
+    font-weight: 400;
+    font-size: "Azeret Mono", monospace; 
+    padding: 10px; 
+    color: #0D1321;
+}
+a{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:"Azeret Mono", monospace ;
+    color: #0D1321;
+}
+.current-icon-1{
+    background-color: rgb(200, 227, 236);
+}
+.current-icon-2{
+    background-color: rgb(207, 243, 209);
+}
+.current-icon-3{
+    background-color: rgb(232, 211, 245);
+}
+img{
+    margin-top: 20px;
+}
+.next-text{
+    text-align: center;
+    padding-top: 0;
+}
+.next-text h5{
+    font-weight: 800;
+    font-size: 32px;
+    font-family:"Azeret Mono", monospace ;
+}
+.next-text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family:"Azeret Mono", monospace ;
+    margin-top: 24px;
+}
+.icon2{
+    
+    width: auto;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.icon-text h5{
+    font-size: 24px;
+    font-weight: 800;
+    font-family:"Azeret Mono", monospace ;
+    padding: 10px; 
+}
+.icon-text p{
+    font-size: 16px;
+    font-family: 400;
+    font-family:"Azeret Mono", monospace ;
+    color: #0D1321;
+    padding: 10px;
+}
+.icom-main{
+    margin-top: 20px;
+}
+.support{
+    height:600px;
+    background-image: url("../assets/handshake.jpg");
+    margin: 150px;
+    margin: 150px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+
+
+.support-text{
+    padding-top: 150px;
+    text-align: center;
+    
+}
+.support-text h5{
+    font-size: 32px;
+    font-weight: 700;
+    font-family:"Azeret Mono", monospace ;
+    color: #FFFFFF;
+}
+.support-text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family:"Azeret Mono", monospace ;
+    color:#FFFFFF ;
+    margin-top: 24px;
+}
+.inp-1{
+    margin-top: 20px;
+    width: 548px;
+    height: 57px;
+    margin-left: 420px;
+    border-radius: 8px;
+    padding: auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace ;
+
+}
+button{
+    margin-top: 20px;
+    width: 120px;
+    height: 57px;
+    margin-left: 20px;
+    border-radius: 8px;
+    padding: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace ;
+}
+.inp{
+    margin-top: 30px;
+    display: flex;
+    
+}
+#footer-conatiner{
+    width: 1440px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 526px;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+#footer-conatiner h6{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace ;
+}
+.footer-contant{
+    padding-bottom: 10px;
+    margin-top: 10p;
+    margin-bottom: 5px;
+   
+}
+.footer-contant img{
+    margin-right: 10px;
+}
